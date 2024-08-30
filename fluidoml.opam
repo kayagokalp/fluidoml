@@ -9,6 +9,7 @@ bug-reports: "https://github.com/kayagokalp/fluidoml/issues"
 depends: [
   "dune" {>= "3.0"}
   "cmdliner"
+  "alcotest"
   "odoc" {with-doc}
 ]
 build: [

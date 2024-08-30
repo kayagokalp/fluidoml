@@ -9,5 +9,5 @@
  (name fluidoml)
  (synopsis "Fluidoml core package")
  (description "A project for simulating fluid mixing experiments, including a command-line interface.")
- (depends cmdliner))
+ (depends cmdliner alcotest))
 
