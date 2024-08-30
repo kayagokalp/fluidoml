@@ -1,4 +1,4 @@
 (executable
  (public_name fluidoml)
  (name main)
- (libraries fluidoml))
+ (libraries ego fluidoml))

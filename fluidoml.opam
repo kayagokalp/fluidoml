@@ -13,6 +13,7 @@ bug-reports: "https://github.com/kayagokalp/fluidoml/issues"
 depends: [
   "ocaml"
   "dune" {>= "3.12"}
+  "ego"
   "odoc" {with-doc}
 ]
 build: [

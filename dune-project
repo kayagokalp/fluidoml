@@ -19,7 +19,7 @@
  (name fluidoml)
  (synopsis "A mixing experiment with e-graphs")
  (description "Using egraphs and saturation to find mixing sequences for given target")
- (depends ocaml dune)
+ (depends ocaml dune ego)
  (tags
   (topics "egraphs" "microfluidics")))
 
