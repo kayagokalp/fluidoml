@@ -1,5 +1,5 @@
 (executable
- (name fluidoml_cli)
- (public_name fluidoml-cli)
+ (name fluido_cli)
+ (public_name fluido-cli)
  (libraries cli)
  (modes byte native))

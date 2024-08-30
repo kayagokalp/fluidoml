@@ -1,4 +1,4 @@
-(** Module for handling input spaces in fluidoml-cli *)
+(** Module for handling input spaces in fluido-cli *)
 
 (** Type representing an input space *)
 type t = string * (float * float)

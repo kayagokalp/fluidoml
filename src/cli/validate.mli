@@ -1,4 +1,4 @@
-(** Module for validating configurations in fluidoml-cli *)
+(** Module for validating configurations in fluido-cli *)
 
 open Config
 

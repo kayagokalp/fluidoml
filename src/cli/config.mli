@@ -1,4 +1,4 @@
-(** Configurations for the fluidoml-cli *)
+(** Configurations for the fluido-cli *)
 
 (** Type representing the raw user input configuration *)
 type config =

@@ -12,7 +12,7 @@ let run time_limit target_concentration input_spaces =
   match parse_and_validate time_limit target_concentration input_spaces with
   | Ok checked_config ->
     Printf.printf
-      "Running fluidoml-cli with time_limit=%d, target_concentration=%f\n"
+      "Running fluido-cli with time_limit=%d, target_concentration=%f\n"
       checked_config.time_limit
       checked_config.target_concentration;
     List.iter
@@ -39,13 +39,13 @@ let term =
 
 (* Command info *)
 let info =
-  let doc = "Fluidoml-cli for simulating fluid mixing experiments." in
+  let doc = "Fluido-cli for simulating fluid mixing experiments." in
   let man =
     [ `S Cmdliner.Manpage.s_bugs
     ; `P "You can report bugs at https://github.com/kayagokalp/fluidoml/issues."
     ]
   in
-  Cmd.info "fluidoml-cli" ~version:"1.0" ~doc ~exits:Cmdliner.Cmd.Exit.defaults ~man
+  Cmd.info "fluido-cli" ~version:"0.0" ~doc ~exits:Cmdliner.Cmd.Exit.defaults ~man
 ;;
 
 let cmd = Cmd.v info term

@@ -1,4 +1,4 @@
-(** Entry point for the fluidoml CLI *)
+(** Entry point for the fluido CLI *)
 
 val parse_and_validate
   :  int
