@@ -1,26 +1,13 @@
-(lang dune 3.12)
+(lang dune 3.0)
 
 (name fluidoml)
-
 (generate_opam_files true)
-
-(source
- (github kayagokalp/fluidoml))
-
-(authors "kayagokalp")
-
-(maintainers "kayagokalp")
-
 (license MIT)
-
-(documentation https://github.com/kayagokalp/fluidoml/docs)
+(source (github kayagokalp/fluidoml))
 
 (package
  (name fluidoml)
- (synopsis "A mixing experiment with e-graphs")
- (description "Using egraphs and saturation to find mixing sequences for given target")
- (depends ocaml dune ego)
- (tags
-  (topics "egraphs" "microfluidics")))
+ (synopsis "Fluidoml core package")
+ (description "A project for simulating fluid mixing experiments, including a command-line interface.")
+ (depends cmdliner))
 
-; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project

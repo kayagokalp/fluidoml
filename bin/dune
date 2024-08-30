@@ -1,4 +1,5 @@
 (executable
- (public_name fluidoml)
- (name main)
- (libraries ego fluidoml))
+ (name fluidoml_cli)
+ (public_name fluidoml-cli)
+ (libraries cli)
+ (modes byte native))

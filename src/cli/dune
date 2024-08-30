@@ -1,0 +1,5 @@
+(library
+ (name cli)
+ (public_name fluidoml.cli)
+ (libraries cmdliner)
+ (modules cli config input_space validate))
