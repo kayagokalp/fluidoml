@@ -5,22 +5,22 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github kayagokalp/fluidoml))
 
-(authors "Author Name")
+(authors "kayagokalp")
 
-(maintainers "Maintainer Name")
+(maintainers "kayagokalp")
 
-(license LICENSE)
+(license MIT)
 
-(documentation https://url/to/documentation)
+(documentation https://github.com/kayagokalp/fluidoml/docs)
 
 (package
  (name fluidoml)
- (synopsis "A short synopsis")
- (description "A longer description")
+ (synopsis "A mixing experiment with e-graphs")
+ (description "Using egraphs and saturation to find mixing sequences for given target")
  (depends ocaml dune)
  (tags
-  (topics "to describe" your project)))
+  (topics "egraphs" "microfluidics")))
 
 ; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project
