@@ -11,7 +11,7 @@ bug-reports: "https://github.com/kayagokalp/fluidoml/issues"
 depends: [
   "dune" {>= "3.0"}
   "cmdliner"
-  "alcotest"
+  "alcotest" {with-test}
   "odoc" {with-doc}
 ]
 build: [
