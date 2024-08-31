@@ -1,4 +1,4 @@
-name: Builds, tests & co
+name: Actions
 
 on:
   push:
@@ -44,17 +44,6 @@ jobs:
       - run: opam exec -- dune build
 
       - run: opam exec -- dune runtest
-
-      - name: Generate artifact attestation
-        uses: actions/attest-build-provenance@v1
-        with:
-          subject-path: _build/default/world.exe
-
-      - name: Upload the build artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: ${{ matrix.os }}-${{ matrix.ocaml-compiler }}-world.exe
-          path: _build/default/bin/fluido_cli.exe
 
   lint-doc:
     runs-on: ubuntu-latest
