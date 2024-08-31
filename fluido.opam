@@ -3,6 +3,8 @@ opam-version: "2.0"
 synopsis: "Fluido core package"
 description:
   "A project for simulating fluid mixing experiments, including a command-line interface."
+maintainer: ["[" "kayagokalp" "]"]
+authors: ["kayagokalp"]
 license: "MIT"
 homepage: "https://github.com/kayagokalp/fluidoml"
 bug-reports: "https://github.com/kayagokalp/fluidoml/issues"

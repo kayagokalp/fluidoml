@@ -3,6 +3,8 @@
 (name fluido)
 (generate_opam_files true)
 (license MIT)
+(authors kayagokalp)
+(maintainers ["kayagokalp"])
 (source (github kayagokalp/fluidoml))
 
 (package
